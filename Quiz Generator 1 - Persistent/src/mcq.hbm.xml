@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="MultipleChoiceQuestion" table="mcq">  
+    <id name="id">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="title"></property>  
+    <property name="option1"></property> 
+    <property name="option2"></property>  
+    <property name="option3"></property> 
+    <property name="option4"></property> 
+            
+  </class>  
+            
+ </hibernate-mapping>  
